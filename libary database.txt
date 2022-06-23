@@ -1,0 +1,35 @@
+
+create table book(book_id varchar(10), language varchar(10), name varchar(20), Author varchar(30), pages int(6), publisher_id varchar(10), pubname varchar(10), pubphone varchar(20), price varchar(10));
+
+
+create table magazine(mag_id varchar(10), name varchar(20), language varchar(10), pubdate varchar(10), pages int(6), publisher_id varchar(10), pubname varchar(20), pubphone int(10), price int(6));
+
+
+create table cd(cd_id varchar(10), name varchar(10), edition int(3), publisher_id varchar(10), pubname varchar(20), pubphone int(10), price int(10));
+
+create table paper(paper_id varchar(10), name varchar(10), language varchar(10), type varchar(10), publisher_id varchar(10), pages int(6));
+
+
+create table student(student_id varchar(10), name varchar(25), father varchar(25), course varchar(10), branch varchar(10), year varchar(10), semester varchar(10));
+
+
+create table issue(item_id varchar(10), student_id varchar(10), itemname varchar(40), sname varchar(40), course varchar(20), address varchar(30), dateOfIssue DATE);
+
+
+
+create table returnitem(item_id varchar(10), student_id varchar(10), itemname varchar(40), sname varchar(40), course varchar(20), address varchar(30), fine int(20), dateOfIssue DATE, dateOfReturn DATE);
+
+
+
+create table account(staffid varchar(20), name varchar(25), password varchar(25), sec_qu varchar(25), sec_ans varchar(25));
+
+
+create table lecturer(lecture_id varchar(10), name varchar(25), address varchar(35), phone int(10), email varchar(30));
+
+create database project;
+
+
+
+
+
+
